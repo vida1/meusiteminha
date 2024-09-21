@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styleD.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>Menu</h3>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Informações Gerais</a></li>
+            <li><a href="#">Membros</a></li>
+            <li><a href="#">Ranking</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="#">Sair</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>BALLAS</h1>
+        </header>
+        <section class="info-cards">
+            <div class="card">
+                <h3>R$ 0</h3>
+                <p>Saldo Cofre</p>
+            </div>
+            <div class="card">
+                <h3>0%</h3>
+                <p>Meta Semanal</p>
+            </div>
+            <div class="card">
+                <h3><%= totalUsers %></h3>
+                <p>Membros</p>
+            </div>
+        </section>
+        <section class="partners">
+            <h2>Parceiros</h2>
+            <button>Adicionar</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
